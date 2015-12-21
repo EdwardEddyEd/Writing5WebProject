@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section{
+	display: block;
+}
+
+html, body, h1, h2, ul, li, a, p, 
+article, aside, footer, header, main, nav, section{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #eeeeee;
+	font-family: arial, helvetica, sans-serif;
+	margin: 10px auto;
+	width: 90%;
+}
+
+#banner{
+	background-color: #003300;
+	color: white;
+
+	border-radius: 30px 30px 0px 0px;
+	padding: 15px 20px 10px;
+
+	font-size: 120%;
+}
+#banner p{
+	padding-top: 5px;
+}
+
+nav{
+	background-color: #227722;
+
+	padding: 5px;
+	border-top: 2px solid white;
+}
+
+li{
+	display: inline;
+
+	margin-left: 15px;
+	margin-right: 15px;
+
+	font-size: 1.3em;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+li a{
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover{
+	text-decoration: underline;
+}
+
+li a:active{
+	color: yellow;
+}
+
+main{
+	background-color: #227722;
+
+	margin: 20px 0px;
+}
+
+#content{
+	padding: 15px;
+}
+
+article{
+	background-color: white;
+
+	padding: 10px 20px;
+}
+
+article h2{
+	font-size: 2.0em;
+}
+
+article p{
+	text-indent: 25px;
+	padding-bottom: 15px;
+}
+
+#welcomeContent{
+	border-radius: 10px;
+}
+
+#welcomeContent img{
+	border: 5px solid #189cca;
+	margin: 5px 0 10px;
+}
+
+#abstract{
+	border-radius: 10px 10px 0 0;
+	margin-bottom: 10px;
+}
+
+#essay{
+	border-radius: 10px 10px 0 0;
+	margin-bottom: 10px;
+}
+
+#multiModalEssay{
+	margin-bottom: 10px;
+}
+
+#essayDownload{
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.leftAlignVideo{
+	border: 5px double #003300;
+
+	clear: left;
+	float: left;
+
+	margin: 0 15px 0 0;
+	width: 480px;
+	height: auto;
+}
+
+.rightAlignVideo{
+	border: 5px double #003300;
+
+	float: right;
+
+	margin: 0 0 0 15px;
+	width: 480px;
+	height: auto;
+}
+
+.videoDescription{
+	padding: 0 5px 5px;
+	
+	text-indent: 0;
+	text-decoration: underline;
+
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+iframe{
+	width: 480px;
+	height: 270px;
+}
+
+#workCited{
+	border-radius: 0 0 10px 10px;
+}
+
+#workCited p{
+	text-indent: 0;
+}
+
+footer{
+	background-color: #003300;
+	color: white;
+
+	text-decoration: none;
+
+	border-radius: 0px 0px 30px 30px;
+	padding: 10px 20px 15px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+
+footer a:active{
+	color: yellow;
+}
